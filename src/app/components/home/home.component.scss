@@ -1,0 +1,354 @@
+.wrapper--home {
+
+
+  .wrapper--hero--section {
+    min-height: 1000px;
+    background:
+      url("/assets/img/Bitcoin.png") no-repeat 15% 14%,
+      url("/assets/img/LiteCoin.png") no-repeat 18% 80%,
+      url("/assets/img/Etherium.png") no-repeat 75% 80%,
+      url("/assets/img/Monero.png") no-repeat 82% 30%,
+      url("/assets/img/star.png") no-repeat 20% 25%,
+      url("/assets/img/star.png") no-repeat 82% 80%,
+      url("/assets/img/star-2.png") no-repeat 82% 20%,
+      url("/assets/img/circles.png") no-repeat 50% 64%,
+      url("/assets/img/bgcenter.png") no-repeat 50% 30%,
+      url("/assets/img/bgleft.png") no-repeat 5% -200%,
+      url("/assets/img/bgright.png") no-repeat 145% 20%;
+
+    background-size:
+      auto,
+      auto,
+      auto,
+      auto,
+      auto,
+      auto,
+      auto,
+      auto,
+      auto;
+    .wrapper--hero {
+      min-height: 700px;
+      display: flex;
+      justify-content: center;
+
+      .hero--text-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 780px;
+        min-height: 397px;
+
+        .hero--text-title {
+          color: rgb(255, 255, 255);
+          font-family: Inter;
+          font-size: 85px;
+          font-weight: 900;
+          text-align: center;
+          margin-bottom: 16px;
+        }
+
+        .hero--text-subtitle {
+          max-width: 580px;
+          height: 66px;
+          color: rgb(206, 212, 218);
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+          text-align: center;
+          margin-bottom: 32px;
+        }
+
+        .hero--text-action button{
+          width: 186px;
+          min-height: 62px;
+          box-sizing: border-box;
+          border-radius: 10px;
+          background: linear-gradient(225.00deg, rgb(24, 200, 255) 18.272%,rgb(147, 63, 254) 89.228%);
+          color: rgb(248, 249, 250);
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 600;
+          text-align: center;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+
+.wrapper---about--section {
+  background: url("/assets/img/star.png") no-repeat 78% 97%;
+  background-size: auto;
+  min-height: 668px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .wrapper---about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    height: 580px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-bottom: 203px;
+
+    backdrop-filter: blur(100px);
+    background: radial-gradient(90.43% 73.41% at 100% 106%, rgba(223, 29, 255, 0.5), rgba(72, 205, 255, 0) 100%),
+    radial-gradient(103.31% 99.32% at -5% -17%, rgba(61, 165, 245, 0.5), rgba(62, 69, 238, 0) 100%),
+    linear-gradient(-135deg, rgba(41, 46, 75, 0.38), rgba(41, 46, 75, 0.18) 100%, rgba(48, 58, 120, 0.5) 100%);
+
+    .about-us--info--main {
+      min-height: 207px;
+      padding: 0 0 0 58px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .about-us--info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 522px;
+        height: 323px;
+        .about-us--info--title {
+          color: rgb(185, 130, 255);
+          font-family: Inter;
+          font-size: 20px;
+          font-weight: 600;
+          text-align: left;
+          margin-bottom: 4px;
+        }
+        .about-us--info--subtitle {
+          color: rgb(255, 255, 255);
+          font-family: Inter;
+          font-size: 50px;
+          font-weight: 900;
+          text-align: left;
+          margin-bottom: 24px;
+        }
+        .about-us--info--description {
+          color: rgb(233, 236, 239);
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 140%;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+      }
+      .about-us--statistics {
+        display: flex;
+        width: 422px;
+        height: 68px;
+        justify-content: space-between;
+        .about-us--statistics--child {
+          .about-us--statistics--title--child {
+            font-family: Inter;
+            font-size: 28px;
+            font-weight: 900;
+            line-height: 130%;
+            letter-spacing: 0%;
+            text-align: left;
+            color: white;
+            .last-char {
+              color: rgb(185, 130, 255);
+            }
+          }
+
+          .about-us--statistics--subtitle--child {
+            color: rgb(185, 130, 255);
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
+
+.wrapper--our-service--section {
+  background: url("/assets/img/bgService.png") no-repeat right -18%;
+  background-size: auto;
+  .wrapper---our-service {
+    .our-service--info--main {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      min-height: 684px;
+      .our-service--info--card--main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        width: 380px;
+        height: 272px;
+
+        .our-service--info--card--title--main {
+          color: rgb(185, 130, 255);
+          font-family: Inter;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 130%;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+        .our-service--info--card--subtitle--main {
+          color: rgb(255, 255, 255);
+          font-family: Inter;
+          font-size: 50px;
+          font-weight: 900;
+          line-height: 130%;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+        .our-service--info--card--description--main {
+          color: rgb(233, 236, 239);
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 140%;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+      }
+
+      .our-service--info--card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 332px;
+        height: 262px;
+        border-radius: 25px;
+        backdrop-filter: blur(100px);
+        padding: 32px 24px;
+        background: linear-gradient(180.00deg, rgba(223, 29, 255, 0.2),rgba(72, 205, 255, 0) 100%),linear-gradient(180.00deg, rgba(41, 46, 75, 0.38),rgba(48, 58, 120, 0.5) 100%);
+
+        .our-service--info--card--title {
+
+        }
+        .our-service--info--card--subtitle {
+          color: rgb(255, 255, 255);
+          font-family: Inter;
+          font-size: 32px;
+          font-weight: 600;
+          line-height: 130%;
+          letter-spacing: 0%;
+          text-align: center;
+        }
+
+        .our-service--info--card--description {
+          color: rgb(173, 181, 189);
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 140%;
+          letter-spacing: 0%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+
+
+.wrapper--our-token--section {
+
+  background: url("/assets/img/backbit.png") no-repeat left 20%, url("/assets/img/bgService.png") no-repeat right 150%;
+  background-size:
+    auto,
+    auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 737px;
+  .wrapper--our-token {
+    width: 1180px;
+    height: 593px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    .our-token--info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 500px;
+      height: 163px;
+      .our-token--info--title {
+        color: rgb(185, 130, 255);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+      .our-token--info--subtitle {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 50px;
+        font-weight: 900;
+        text-align: left;
+      }
+      .our-token--info--description {
+        color: rgb(233, 236, 239);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+      }
+    }
+    .our-token--info--card--main {
+      display: flex;
+      width: 1180px;
+     justify-content: space-between;
+      .our-token--info--card {
+        padding: 40px 37px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 380px;
+        height: 330px;
+        box-sizing: border-box;
+        border-radius: 50px;
+        backdrop-filter: blur(100px);
+        background: radial-gradient(66.73% 87.80% at 10% -26%,rgba(223, 29, 255, 0.35),rgba(72, 205, 255, 0) 100%),
+        radial-gradient(78.72% 98.68% at 112.99999999999999% 121%,rgba(62, 238, 227, 0.5),rgba(62, 69, 238, 0) 100%),
+        linear-gradient(135.00deg, rgba(41, 46, 75, 0.23) 0%,rgba(37, 40, 58, 0.11) 100%,rgba(41, 46, 75, 0.11) 100%);
+
+        .our-token--info--card--title {
+
+        }
+        .our-token--info--card--subtitle {
+          color: rgb(233, 238, 244);
+          font-family: Inter;
+          font-size: 32px;
+          font-weight: 600;
+          text-align: left;
+
+
+        }
+        .our-token--info--card--description {
+
+          color: rgb(232, 232, 232);
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+
+          text-align: center;
+        }
+      }
+    }
+  }
+}

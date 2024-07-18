@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #0B0B0F;
+}
+
+ul,li,ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration:none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
