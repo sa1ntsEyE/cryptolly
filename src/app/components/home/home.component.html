@@ -18,6 +18,7 @@
       </div>
     </div>
   </section>
+
   <section class="wrapper---about--section">
     <div class="wrapper---about container">
       <div class="about-us--info--main">
@@ -64,6 +65,7 @@
       </div>
     </div>
   </section>
+
   <section class="wrapper--our-service--section">
   <div class="wrapper---our-service container">
     <div class="our-service--info--main">
@@ -137,7 +139,6 @@
   </div>
   </section>
 
-
   <section class="wrapper--our-token--section">
     <div class="wrapper--our-token container">
       <div class="our-token--info">
@@ -189,4 +190,311 @@
       </div>
     </div>
   </section>
+
+    <section class="wrapper--FAQ--section">
+      <div class="wrapper--FAQ container">
+        <div class="FAQ--info">
+          <div class="FAQ--info--title">
+            FAQ’s
+          </div>
+          <div class="FAQ--info--subtitle">
+            Frequently Asked Questions
+          </div>
+          <div class="FAQ--info--description">
+            When an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          </div>
+        </div>
+        <div class="FAQ--questions">
+          <div class="FAQ--questions--card--main">
+            <div *ngFor="let question of questions; let i = index" class="FAQ--questions--card" (click)="handleOpen(i)">
+              <div class="FAQ--questions--card--title">
+                <img [class.open]="isOpen[i]" class="FAQ--questions--card--open" src="assets/icons/open.png" alt="">
+                {{ question.title }}
+              </div>
+              <div [class.open]="isOpen[i]" class="FAQ--questions--card--subtitle" *ngIf="isOpen[i]">
+                {{ question.subtitle }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper--team--section">
+      <div class="wrapper--team">
+
+        <div class="team--info">
+          <div class="team--info--title">
+            Team
+          </div>
+          <div class="team--info--subtitle">
+            Member of our expert team
+          </div>
+          <div class="team--info--description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo ipsum
+            aliquet turpis elit elit natoque varius eget facilisi. Amet rhoncus
+          </div>
+        </div>
+
+        <div class="team--user--info--main">
+
+          <div class="team--user--info">
+            <div class="team--user--info--title">
+              Hulon Anish
+            </div>
+            <div class="team--user--info--img">
+              <img src="assets/img/team-man1.png" alt="">
+              <img class="team--user--info--img-background" src="assets/img/back.png" alt="">
+            </div>
+            <div class="team--user--info--hover">
+              <div class="team--user--info--icon--main--hover">
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/facebook.png" alt="#"></a>
+                </div>
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/twitter.png" alt="#"></a>
+                </div>
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/instagram.png" alt="#"></a>
+                </div>
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/Linkendin.png" alt="#"></a>
+                </div>
+              </div>
+              <div class="team--user--info--text--hover">
+                <div class="team--user--info--title--hover">
+                  Hulon Anish
+                </div>
+                <div class="team--user--info--description--hover">
+                  Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit.
+                  In amet amet integer
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="team--user--info">
+            <div class="team--user--info--title">
+              Crystal Ealy
+            </div>
+            <div class="team--user--info--img">
+              <img src="assets/img/team-man2.png" alt="">
+              <img class="team--user--info--img-background" src="assets/img/back.png" alt="">
+            </div>
+            <div class="team--user--info--hover">
+              <div class="team--user--info--icon--main--hover">
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/facebook.png" alt="#"></a>
+                </div>
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/twitter.png" alt="#"></a>
+                </div>
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/instagram.png" alt="#"></a>
+                </div>
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/Linkendin.png" alt="#"></a>
+                </div>
+              </div>
+              <div class="team--user--info--text--hover">
+                <div class="team--user--info--title--hover">
+                  Crystal Ealy
+                </div>
+                <div class="team--user--info--description--hover">
+                  Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit.
+                  In amet amet integer
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="team--user--info">
+            <div class="team--user--info--title">
+              Zachary Cadiente
+            </div>
+            <div class="team--user--info--img">
+              <img src="assets/img/team-woman3.png" alt="">
+              <img class="team--user--info--img-background" src="assets/img/back.png" alt="">
+            </div>
+            <div class="team--user--info--hover">
+              <div class="team--user--info--icon--main--hover">
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/facebook.png" alt="#"></a>
+                </div>
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/twitter.png" alt="#"></a>
+                </div>
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/instagram.png" alt="#"></a>
+                </div>
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/Linkendin.png" alt="#"></a>
+                </div>
+              </div>
+              <div class="team--user--info--text--hover">
+                <div class="team--user--info--title--hover">
+                  Zachary Cadiente
+                </div>
+                <div class="team--user--info--description--hover">
+                  Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit.
+                  In amet amet integer
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="team--user--info">
+            <div class="team--user--info--title">
+              Kelvin Powell
+            </div>
+            <div class="team--user--info--img">
+              <img src="assets/img/team-man4.png" alt="">
+              <img class="team--user--info--img-background" src="assets/img/back.png" alt="">
+            </div>
+            <div class="team--user--info--hover">
+              <div class="team--user--info--icon--main--hover">
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/facebook.png" alt="#"></a>
+                </div>
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/twitter.png" alt="#"></a>
+                </div>
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/instagram.png" alt="#"></a>
+                </div>
+                <div class="team--user--info--icon--hover">
+                  <a href="#"><img src="assets/icons/Linkendin.png" alt="#"></a>
+                </div>
+              </div>
+              <div class="team--user--info--text--hover">
+                <div class="team--user--info--title--hover">
+                  Kelvin Powell
+                </div>
+                <div class="team--user--info--description--hover">
+                  Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit.
+                  In amet amet integer
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  <section class="wrapper--blog--section">
+    <div class="wrapper--blog container">
+
+      <div class="blog--info">
+        <div class="blog--info--title">
+          Blog
+        </div>
+        <div class="blog--info--subtitle">
+          Latest News & Blog
+        </div>
+        <div class="blog--info--description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo ipsum
+          aliquet turpis elit elit natoque varius eget facilisi. Amet rhoncus
+        </div>
+      </div>
+
+      <div class="blog--info--card--main">
+        <div class="blog--info--card">
+          <div class="blog--info--img">
+            <img src="assets/img/bitcoinbg.png" alt="#">
+          </div>
+          <div class="blog--info--date">
+            27 August, 2023
+          </div>
+          <div class="blog--info--underline">
+            <img src="assets/img/underline.png" alt="">
+          </div>
+          <div class="blog--info--title">
+            How to Launch Your Own
+            Cryptocurrency
+          </div>
+          <div class="blog--info--action">
+            <button>
+              Read More
+            </button>
+          </div>
+        </div>
+
+        <div class="blog--info--card">
+          <div class="blog--info--img">
+            <img src="assets/img/bitcoinbg2.png" alt="#">
+          </div>
+          <div class="blog--info--date">
+            27 August, 2023
+          </div>
+          <div class="blog--info--underline">
+            <img src="assets/img/underline.png" alt="">
+          </div>
+          <div class="blog--info--title">
+            The Rise of Cryptocurrency
+            Mining in Education
+          </div>
+          <div class="blog--info--action">
+            <button>
+              Read More
+            </button>
+          </div>
+        </div>
+
+        <div class="blog--info--card">
+          <div class="blog--info--img">
+            <img src="assets/img/bitcoinbg3.png" alt="#">
+          </div>
+          <div class="blog--info--date">
+            27 August, 2023
+          </div>
+          <div class="blog--info--underline">
+            <img src="assets/img/underline.png" alt="">
+          </div>
+          <div class="blog--info--title">
+            The Rise of Cryptocurrency
+            Mining in Education
+          </div>
+          <div class="blog--info--action">
+            <button>
+              Read More
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+    <section class="wrapper--start-now--section">
+      <div class="wrapper--start-now container">
+        <div class="start-now--info--main">
+          <div class="start-now--info">
+            <div class="start-now--info--title">
+              Start Now
+            </div>
+            <div class="start-now--info--subtitle">
+              Sign up to learn more
+            </div>
+            <div class="start-now--info--description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In amet amet integer
+            </div>
+          </div>
+          <div class="start-now--action">
+            <button>
+              Get in Touch
+            </button>
+          </div>
+        </div>
+        <div class="start-now--logo">
+          <img src="assets/img/bitcoinbg4.png" alt="">
+        </div>
+      </div>
+    </section>
+
+  <app-footer></app-footer>
 </div>
