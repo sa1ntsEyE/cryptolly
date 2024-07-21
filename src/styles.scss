@@ -4,9 +4,11 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  width: 100%;
   background: #0B0B0F;
+  width:100%;
+  overflow-x:hidden;
 }
+
 
 ul,li,ol {
   padding: 0;
@@ -28,3 +30,4 @@ button {
   max-width: 1180px;
   margin: 0 auto;
 }
+

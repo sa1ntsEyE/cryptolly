@@ -2,11 +2,11 @@
   <header>
     <div class="header--main container">
       <div class="header--logo">
-        <a href="" routerLink="">
+        <a href="#" routerLink="">
           <img src="assets/img/Logo.png" alt="Company Logo">
         </a>
       </div>
-      <div class="header--nav">
+      <div class="header--nav" [class.active]="menuOpen">
         <nav>
           <ul>
             <li><a href="#">About</a></li>
@@ -22,6 +22,11 @@
         <button>
           Get in Touch
         </button>
+      </div>
+      <div class="burger-menu" (click)="toggleMenu()" [class.open]="menuOpen">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </div>
   </header>
